@@ -14,10 +14,14 @@
 		var _this = this;
 		_this.visible = false;
 		_this.showBubble = function () {
+			clearTimeout(_this.timer);
 			_this.visible = true;
 		};
 		_this.hideBubble = function () {
-			_this.visible = false;
+			_this.timer = setTimeout(function () {
+				_this.visible = false;
+				_this.update();
+			}, 1000);
 		};
 		_this.toggleBubble = function () {
 			_this.visible = !_this.visible;
