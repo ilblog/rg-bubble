@@ -12,4 +12,4 @@ Add this to your Riot app markup
 <rg-bubble text="I go pop!"><em>bubble</em></rg-bubble>
 ```
 
-The tooltip pops up on hover and fter 1 second it disappears
+The tooltip pops up on hover. Once the mouse leaves it disappears after 1 second.
