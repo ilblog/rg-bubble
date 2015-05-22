@@ -1,6 +1,6 @@
 # RiotGear
 
-## rg-tabs
+## rg-bubble
 
 <img src="https://raw.githubusercontent.com/RiotGear/rg-bubble/master/demo/img/example.png" width="500px" />
 
