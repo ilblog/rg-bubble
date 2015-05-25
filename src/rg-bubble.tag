@@ -2,7 +2,7 @@
 
 	<div class="context">
 		<div class="bubble { visible: visible }">
-			{ opts.text }
+			{ text }
 		</div>
 		<div class="content" onmouseover="{ showBubble }" onmouseout="{ hideBubble }" onclick="{ toggleBubble }">
 			<yield/>
@@ -12,6 +12,7 @@
 	<script>
 
 		var _this = this;
+		_this.text = opts.text;
 		_this.visible = false;
 		_this.showBubble = function () {
 			clearTimeout(_this.timer);
