@@ -1,6 +1,6 @@
 {
-  "name": "rg-bubble",
-  "version": "0.1.0",
+  "name": "riotgear-bubble",
+  "version": "1.0.0",
   "description": "Bubble component",
   "main": "dist/rg-bubble.min.js",
   "scripts": {
@@ -11,6 +11,10 @@
     "build": "npm run riot && npm run uglify",
     "test": "istanbul cover -- _mocha --timeout=10000"
   },
+  ,
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/RiotGear/rg-bubble.git"
