@@ -8,8 +8,7 @@
     "riot": "riot src dist/rg-bubble.js",
     "postriot": "riot demo",
     "uglify": "uglifyjs --output dist/rg-bubble.min.js -- dist/rg-bubble.js",
-    "build": "npm run riot && npm run uglify",
-    "test": "istanbul cover -- _mocha --timeout=10000"
+    "build": "npm run riot && npm run uglify"
   },
   "files": [
     "dist"
