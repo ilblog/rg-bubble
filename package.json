@@ -1,6 +1,6 @@
 {
   "name": "riotgear-bubble",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bubble component",
   "main": "dist/rg-bubble.min.js",
   "scripts": {
@@ -31,7 +31,7 @@
   "homepage": "https://github.com/RiotGear/rg-bubble",
   "devDependencies": {
     "jshint": "~2.7.0",
-    "riot": "^2.2.2",
+    "riot": "~2.2.2",
     "uglify-js": "~2.4.21"
   }
 }
