@@ -1,12 +1,12 @@
 {
   "name": "riotgear-bubble",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bubble component",
   "main": "dist/rg-bubble.min.js",
   "scripts": {
     "lint": "jshint . --exclude-path=.gitignore",
-    "riot": "riot src dist/rg-bubble.js",
-    "postriot": "riot demo",
+    "riot": "riot src dist/rg-bubble.js --type es6",
+    "postriot": "riot demo --type es6",
     "uglify": "uglifyjs --output dist/rg-bubble.min.js -- dist/rg-bubble.js",
     "build": "npm run riot && npm run uglify"
   },
@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/RiotGear/rg-bubble",
   "devDependencies": {
+    "babel": "^5.8.21",
     "jshint": "~2.7.0",
     "riot": "~2.2.2",
     "uglify-js": "~2.4.21"

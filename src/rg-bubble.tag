@@ -11,22 +11,21 @@
 
 	<script>
 
-		var _this = this;
-		_this.text = opts.text;
-		_this.visible = false;
-		_this.showBubble = function () {
-			clearTimeout(_this.timer);
-			_this.visible = true;
-		};
-		_this.hideBubble = function () {
-			_this.timer = setTimeout(function () {
-				_this.visible = false;
-				_this.update();
-			}, 1000);
-		};
-		_this.toggleBubble = function () {
-			_this.visible = !_this.visible;
-		};
+		this.text = opts.text
+		this.visible = false
+		this.showBubble = () => {
+			clearTimeout(this.timer)
+			this.visible = true
+		}
+		this.hideBubble = () => {
+			this.timer = setTimeout(() => {
+				this.visible = false
+				this.update()
+			}, 1000)
+		}
+		this.toggleBubble = () => {
+			_this.visible = !_this.visible
+		}
 
 	</script>
 
